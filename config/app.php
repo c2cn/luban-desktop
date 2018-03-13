@@ -189,7 +189,7 @@ return [
         App\Providers\DesktopServiceProvider::class,        
         Collective\Html\HtmlServiceProvider::class,
         Shopex\CrudGenerator\CrudGeneratorServiceProvider::class,
-        Shopex\Luban\Providers\LubanProvider::class,
+        // Shopex\Luban\Providers\LubanProvider::class,
         Shopex\LubanAdmin\Providers\LubanAdminProvider::class,
         Shopex\LubanAuth\Providers\LubanAuthProvider::class,
 
@@ -243,7 +243,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,      
-        'Luban' => Shopex\Luban\Facades\Luban::class,
+        // 'Luban' => Shopex\Luban\Facades\Luban::class,
         'Admin' => Shopex\LubanAdmin\Facades\Admin::class,
 
     ],
