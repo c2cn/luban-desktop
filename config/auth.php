@@ -99,4 +99,10 @@ return [
         ],
     ],
 
+    'sso'=>[
+        'app_id' => env('SSO_APP_ID', 'appid'),
+        'app_secret' => env('SSO_APP_SECRET', 'secret'),
+        'url' => env('SSO_URL', 'http://192.168.10.96:9050/'),
+    ],
+
 ];
